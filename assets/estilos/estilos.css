@@ -1,0 +1,27 @@
+@import 'cabecera.css';
+
+
+*{
+    box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+:root{
+    --borderWidth: 5px;
+    --negro:#010101;
+    --botones:#c1001f;
+    --blanco-principal:#ffffff;
+    --gris:#707172;
+    --letras:#444444;
+
+    --borderr:
+
+
+
+
+}
+
+
+
+
