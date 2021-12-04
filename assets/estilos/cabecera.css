@@ -141,6 +141,7 @@ z-index: 90000;
     .cont-cabecera{
      flex-wrap: wrap;
      height: 135px;
+     background: var(--negro);
     
       
   
