@@ -1,0 +1,31 @@
+@import 'cabecera.css';
+
+@import 'menu.css';
+@import 'historia.css';
+
+
+*{
+    box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+
+:root{
+    --borderWidth: 5px;
+    --negro:#010101;
+    --botones:#c1001f;
+    --blanco-principal:#ffffff;
+    --gris:#707172;
+    --letras:#444444;
+
+    --borderr:
+
+
+
+
+}
+
+
+
+
