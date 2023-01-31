@@ -5,14 +5,14 @@
 
     
 width: 100%;  
-  background-color: var(--blanco-principal);
+ background-image: radial-gradient(circle at 75.21% 32.35%, #ff7247 0, #ff5b43 25%, #f23c3c 50%, #e40137 75%, #d90036 100%);
     display: flex;
     justify-content:center;
     align-items: center;
     gap: 20px;
     margin: auto;
-    margin-bottom: 10px;
-    box-shadow: 0px 1px 5px -2px ;
+   
+    
     
 
 }
@@ -21,6 +21,11 @@ width: 100%;
     width:270px;
     height:90px ;
     padding: 10px;
+    background-color: white;
+
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
 
 }
 
@@ -55,7 +60,7 @@ display: none;
 .con-items{
     width: 100%;
     height: 100%;
-    background-color: #C1001F;
+    background-image: radial-gradient(circle at 75.21% 32.35%, #ff7247 0, #ff5b43 25%, #f23c3c 50%, #e40137 75%, #d90036 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,7 +87,7 @@ color: white;
 }
 
 .con-items li:hover{
-   background-color: #444444;
+    background-image: radial-gradient(circle at 120.71% 50%, #ffb790 0, #ffac96 8.33%, #ffa19b 16.67%, #ff949d 25%, #ff879c 33.33%, #f67a97 41.67%, #d86c8f 50%, #ba5f85 58.33%, #a0547b 66.67%, #894b72 75%, #75446a 83.33%, #653e64 91.67%, #583b5f 100%);
 
 }
 
@@ -98,30 +103,30 @@ margin-left: -100%;
 
 }
 
-.slider{
- width: 100%;
- height: 100%;
-    background-color: red;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    transition: 3s;
-   
-   
-
+.contenedor-slider{
+width: 100%;
+height:500px;
+background-image: url(/assets/imagenes/fondo-slider.jpg);
+background-size: contain;
 }
 
-.contenedor-slider{
+.slider{
  width:100%;
 max-width: 1200px;
  background-color: green;
  overflow: hidden;
  margin: auto;
+ height: 100%;
+ background-image: url(/assets/imagenes/banner00.jpg);
+ background-size: cover;
+
+ 
 }
 
+
+
 .slider img{
-    width: 100%;
-    height: 100%;
+  
    
    
 }
@@ -156,7 +161,7 @@ justify-content: space-around;
    
     padding: 5px 10px;
     border-radius: 5px;
-    color: var(--negro);
+    color: var(--blanco-principal);
 }
 .menu-destokp li a:hover{
 
@@ -164,7 +169,32 @@ justify-content: space-around;
     color: var(--blanco-principal);
 }
 
+
+@media (max-width:700px){
+    
+   .contenedor-slider{
+
+        height:200px;
+
+    }
+}
+
+
 @media (max-width:970px){
+
+
+
+
+    .contenedor-slider{
+
+        height: 300px;
+
+    }
+
+    .slide{
+        height: 100%;
+
+    }
 body{
     
 }
@@ -192,9 +222,22 @@ body{
     
 }
 
+
+
 @media (max-width:900px){
 
-  
+    .contenedor-slider{
+
+        height: 250px;
+        
+
+    }
+
+    .slide{
+        height: 100%;
+
+    }
    
     
 }
+

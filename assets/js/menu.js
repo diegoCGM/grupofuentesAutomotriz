@@ -1,26 +1,6 @@
 
-    let slider = document.querySelector(".slider");
-
-    let imagenes = slider.querySelectorAll("img");
-
-    console.log(imagenes);
-    let i=0;
-
-    setInterval(function(){
-
-
-        let porsentaje = i*-100;
-
-        slider.style.transform="translateX("+porsentaje+"%)";
-        i++;
-        if(i>(imagenes.length-1)){
-
-            i=0;
-        }
-     
-       console.log(i);
-    },3000);
-
+   
+    
 
 
 

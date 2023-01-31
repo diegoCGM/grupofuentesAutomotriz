@@ -89,16 +89,42 @@
 
 
         </div>
+        
         <div class="contenedor-slider">
-            <div class="slider">
 
-                <img src="assets/imagenes/banner00.jpg" alt="">
-                <img src="assets/imagenes/banner00.jpg" alt="">
-                <img src="assets/imagenes/banner00.jpg" alt="">
-                <img src="assets/imagenes/banner00.jpg" alt="">
-                <img src="assets/imagenes/banner00.jpg" alt="">
+           
+            
+                 <!--Slider-->
+    <div id="slider">  
+    <div class="slide" style="background:dodgerBlue;">
+      <img src="assets/imagenes/banner00.jpg" >
+    </div>
+    
+    <div class="slide" style="background:coral;">
+       <img src="assets/imagenes/baner2.jpg" >
+    </div>
+   
+    <div class="slide" style="background:crimson;">
+      <img src="assets/imagenes/banner3.jpg" >
+    </div>
+    
+    <div class="slide" style="background: #6edf10;">
+      <img src="https://dmasia.travel/wp-content/uploads/2019/09/vit3-1000x350.jpg" >
+    </div>
+    
+    <!--Controlling arrows-->
+    <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"><img src="assets/imagenes/previous.png" style="cursor: pointer;" alt=""></i>
+  </span>
+    <span class="controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-arrow-right" aria-hidden="true"><img src="assets/imagenes/next.png"  style="cursor: pointer;"alt=""></i>
+  </span>
+  </div>
+    <div id="dots-con">
+   <span class="dot" ></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+   </div>
+  
 
-            </div>
+         
+
             
         </div>
 
@@ -171,7 +197,7 @@
 
 
 
-
+<script src="assets/js/slider.js"></script>
     <script src="assets/js/menu.js">
 
 

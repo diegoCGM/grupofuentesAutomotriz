@@ -3,19 +3,25 @@
 .contenedor-identidad{
     width: 100%;
   
-max-width: 1250px;
-    display: flex;
+
     
-    justify-content: center;
+    background-image:url("/assets/imagenes/fondo-nosotros.jpg");
+    
+   display: flex;
     align-items: center;
-    
+    justify-content: center;
      margin: auto;
 
 }
 
 .identida-center{
- 
+ max-width: 1250px;
+background-color: ;
+padding: 20px;
+border: 2px solid violet;
+margin: 20px;
 
+border-radius: 10px;
 
 
 }
@@ -23,12 +29,13 @@ max-width: 1250px;
 .borde p{
 
 font-size: 2rem;
-text-align: center;
+
 padding: px;
 border-bottom: 5px solid red ;
 
 display: inline-block;
 padding: 20px 10px 0px 10px;
+color: var(--blanco-principal);
 
 
 }
@@ -53,23 +60,25 @@ justify-content: center;
     padding-bottom: 20px;
     text-align: center;
     font-weight: bold;
-
+    color: var(--blanco-principal);
 
 }
 
 .texto-fuentes{
 
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 20px;
     line-height: 28px;
+    color: var(--blanco-principal);
+
 }
 
 
 
 .Contenedor-tiendas{
     width: 100%;
-    max-width: 1250px;
+   padding: 30px;
     height: auto;
 
 margin: auto;
@@ -79,6 +88,8 @@ align-items: center;
 flex-wrap: wrap;
 gap: 15px;
 margin-bottom: 20px;
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 .tienda{
@@ -94,7 +105,7 @@ margin-bottom: 20px;
 .tienda img{
     width: 100%;
     height: 350px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .tienda a{
@@ -104,18 +115,18 @@ margin-bottom: 20px;
    text-align: center;
  font-weight: bold;
 padding-top: 12px;
-    background-color: #F5F5F5;
+background-color: rgb(51, 114, 168);
 display: inline-block;
 font-size: 1.2rem;
 text-decoration: none;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: rgb(92, 85, 85);
+color: var(--blanco-principal);
 
-border-radius: 0px 0px 20px 20px ;
+border-radius: 0px 0px 10px 10px ;
 
 
 }
 .tienda a:hover{
- background-color: rgb(51, 114, 168);
+
  color: var(--blanco-principal);
 }
