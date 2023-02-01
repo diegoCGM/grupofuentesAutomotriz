@@ -3,7 +3,7 @@
 
 
 body{
-   background-image: url("/assets/imagenes/fondo-slider.jpg");
+   background-image: url("./assets/imagenes/fondo-slider.jpg");
     background-size: cover;
    
 }
@@ -14,7 +14,7 @@ body{
 
 
 .contenedor-identidad{
-         background-image: url("/assets/imagenes/fondo-nosotros.jpg");
+         background-image: url("./assets/imagenes/fondo-nosotros.jpg");
          background-size: cover;
     width: 100%;
   
