@@ -1,23 +1,39 @@
 
 
+
+
+body{
+   background-image: url("/assets/imagenes/fondo-slider.jpg");
+    background-size: cover;
+   
+}
+
+
+
+
+
+
 .contenedor-identidad{
+         background-image: url("/assets/imagenes/fondo-nosotros.jpg");
+         background-size: cover;
     width: 100%;
   
 
     
-    background-image:url("fondo-nosotros.jpg");
+
     
    display: flex;
     align-items: center;
     justify-content: center;
      margin: auto;
+
      background-color: rgb(72, 58, 85);
 
 }
 
 .identida-center{
  max-width: 1250px;
-background-color: ;
+
 padding: 20px;
 border: 2px solid violet;
 margin: 20px;
@@ -31,7 +47,7 @@ border-radius: 10px;
 
 font-size: 2rem;
 
-padding: px;
+
 border-bottom: 5px solid red ;
 
 display: inline-block;
@@ -89,8 +105,9 @@ align-items: center;
 flex-wrap: wrap;
 gap: 15px;
 margin-bottom: 20px;
-background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+background: rgb(62,164,207);
+background: linear-gradient(0deg, rgba(62,164,207,1) 66%, rgba(253,187,45,1) 100%);
 }
 
 .tienda{
