@@ -1,45 +1,51 @@
 
 
-
-
-
-
-
-
-
-
-
 .contenedor-identidad{
-         background-image: url("../imagenes/fondo-nosotros.jpg");
-         background-size: cover;
+
     width: 100%;
+    height: auto;
   
+    display: flex;
+    flex-wrap: wrap;
+margin-bottom: 30px;
 
-    
 
-    
-   display: flex;
+}
+
+
+.identidad{
+
+    width: 100%;
+    height: auto;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-     margin: auto;
-
-     background-color: rgb(72, 58, 85);
-
 }
 
-.identida-center{
- max-width: 1250px;
-
-padding: 20px;
-border: 2px solid violet;
-margin: 20px;
-
-border-radius: 10px;
-
-
+.tituloautomotriz{
+    padding: 5px;
+   
+    margin-top: 15px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.borde p{
+.texto-fuentes{
+
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 15px;
+   line-height: 1.5rem;
+  
+   
+}
+
+
+
+
+.Contenedor-tiendas .tienda .borde p{
 
 font-size: 2rem;
 
@@ -47,103 +53,116 @@ font-size: 2rem;
 border-bottom: 5px solid red ;
 
 display: inline-block;
-padding: 20px 10px 0px 10px;
-color: var(--blanco-principal);
+padding: 15px;
+color: black;
+font-weight: 600;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-
-}
-
-.borde{
 display: flex;
-justify-content: center;
-    width:400px;
-    height: auto;
-
-    margin: auto;
-
-    
+align-self: center;
+background-color: orange;
 }
 
-
-.tituloautomotriz{
-
-    margin-top: 50px;
-
-    font-size: 1.3rem;
-    padding-bottom: 20px;
-    text-align: center;
-    font-weight: bold;
-    color: var(--blanco-principal);
-
-}
-
-.texto-fuentes{
-
-    text-align: center;
-    font-size: 1.3rem;
-    padding: 20px;
-    line-height: 28px;
-    color: var(--blanco-principal);
-
-}
 
 
 
 .Contenedor-tiendas{
+
     width: 100%;
-   padding: 30px;
     height: auto;
+   
 
-margin: auto;
-display: flex;
-justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 align-items: center;
-flex-wrap: wrap;
-gap: 15px;
-margin-bottom: 20px;
-
-background: rgb(62,164,207);
-background: linear-gradient(0deg, rgba(62,164,207,1) 66%, rgba(253,187,45,1) 100%);
+justify-content: center;
+gap: 20px;
+margin-top: 15px;
+background-color: #f5f6fa;
 }
 
 .tienda{
-    width: 350px;
-   height: auto;
+
+    width: 380px;
+    height: 450px;
+
     
+
     display: flex;
     flex-direction: column;
-    border-bottom: 2px solid black;
-    border-radius: 0px 0px 20px 20px ;
+
 }
 
-.tienda img{
-    width: 100%;
-    height: 350px;
-    border-radius: 10px 10px 0px 0px;
-}
 
-.tienda a{
-    width: 100%;
-    height: 50px;
-  
-   text-align: center;
- font-weight: bold;
-padding-top: 12px;
-background-color: rgb(51, 114, 168);
-display: inline-block;
-font-size: 1.2rem;
-text-decoration: none;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: var(--blanco-principal);
+.tienda a {
 
-border-radius: 0px 0px 10px 10px ;
-
-
+    color: white;
+    background-color: #00a8ff;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-radius: 0px 0px 10px 10px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .tienda a:hover{
+
+background-color: #e9f2f7;
+color: rgb(65, 59, 59);
+
 
  color: var(--blanco-principal);
 
 
- 
 }
+
+ .texto{
+
+   
+   border-radius: 20px;
+   
+   
+   background-color: #00a8ff;
+
+color: #e9f2f7;
+padding: 10px;
+}
+
+.titulo{
+
+    padding: 10px;
+   font-weight: 600;
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.titulo-empresa{
+
+    padding: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+}
+
+.texto-mision{
+
+
+    padding: 0 20px 20px 2px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.tienda img{
+border-radius: 10px 10px 0 0;
+}
+
+
+
+
+
