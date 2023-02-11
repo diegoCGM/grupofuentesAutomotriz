@@ -2,12 +2,13 @@
 .container-herramientas{
 
     width: 100%;
-        background-color: red;
+     
         height: auto;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
         margin-bottom: 50px;
+        padding: 10px;
     }
     
     
@@ -17,14 +18,17 @@
 
         width: 450px;
         height: auto;
-        background-color: orange;
+       
+        padding: 1px;
+        border-radius: 10px;
+        background-color: aliceblue;
         
     }
 
     .con-titulo-imagen{
         width: 100%;
         height: 150px;
-        background-color: green;
+        
         display: flex;
         align-items: center;
         padding: 10px;
@@ -37,11 +41,11 @@
         font-size: 1.4em;
         font-weight: 600;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: red;
+        
     }
 
     .con-titulo-imagen img{
-        background-color: red;
+       
         width: 130px;
 
     }
@@ -54,29 +58,42 @@
     }
 
     .con-material ul {
-        background-color: orange;
+        background-color: bisque;
         width: 100%;
         height:auto ;
-padding: 20px;
+padding: 25px;
 
     }
 
 .con-material ul li{
-    background-color:gray;
+    
     width: 100%;
     padding: 5px;
    
     border-bottom: 1px solid #000;
     text-decoration: ;
+margin-bottom: 10px;
 
+
+}
+
+.con-material ul li:hover{
+    background-color: #e84118;
+       
+    
+
+}
+.con-material ul li a:hover{
+
+color: white;
 }
 .con-material ul li a{
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
     font-size: 1.3rem;
-   
-    margin: ;
-    background-color: bisque;
+
+  
+  
 
 }
