@@ -35,7 +35,6 @@ btnmenu.addEventListener("click",function(){
    imagen.src="assets/imagenes/cerrar.png";
 
 
-
 }else{
 
     menu.className= "conainer-menuvertical oculto";

@@ -107,11 +107,8 @@ background-color: #f5f6fa;
 }
 .tienda a:hover{
 
-background-color: #e9f2f7;
-color: rgb(65, 59, 59);
+background-color: #000000;
 
-
- color: var(--blanco-principal);
 
 
 }
